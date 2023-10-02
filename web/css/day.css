@@ -47,7 +47,7 @@ img {display: block; max-width: 100%;}
 }
 
 .panel   {max-height: 90vh; position: relative;}
-.panel img {object-fit: contain; height: 100%;}
+.panel img {object-fit: contain;}
 h1 {line-height: 1.1;}
 .line-ib {display: inline-block;}
 .line-br {display: block;}
@@ -404,6 +404,7 @@ code {
     width: 289px;
 }
 
+.calendar summary::-webkit-details-marker, 
 .calendar summary::marker {
     display: none;
     content: '';
