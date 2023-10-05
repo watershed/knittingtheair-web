@@ -1,7 +1,13 @@
 /***** Exploratory styles for a day page *****/
 
 * {box-sizing: border-box; margin: 0; padding: 0; border: 0;}
-body {font: 1.125rem/1.5 system-ui, sans-serif; color: #fff; background: #0c070f;}
+body {
+    font: 1.125rem/1.5 system-ui, sans-serif; 
+    color: #fff; 
+    background: #0c070f;
+    background: radial-gradient(45vw 40vw at top left, #391331, #0c070f);
+}
+
 img {display: block; max-width: 100%;}
 
 .day {
@@ -15,6 +21,10 @@ img {display: block; max-width: 100%;}
 }
 
 @media (max-width: 767px) {
+    body {
+        background: radial-gradient(100vw 90vw at top left, #391331, #0c070f);
+    }
+
     .panel {
         margin-left: -7vw;
         margin-left: -7vw;
